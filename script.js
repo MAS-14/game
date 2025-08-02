@@ -25,8 +25,8 @@ let gameData = {
 
 // Fungsi untuk memperbarui tampilan game dengan data baru
 function updateGameDisplay() {
-    // Menggunakan placeholder image yang benar
-    clueImage.src = 'ChatGPT Image 1 Agu 2025, 22.49.43.jpg';
+    // Tautan gambar telah diganti dengan nama file Anda: clue444.jpg
+    clueImage.src = 'clue444.jpg';
     clueImage.alt = gameData.clueDescription;
     imageAltText.textContent = gameData.clueDescription;
     answerInput.value = '';
@@ -66,7 +66,7 @@ submitButton.addEventListener('click', handleSubmit);
 
 // Tambahkan event listener untuk tombol Buka Google
 redirectButton.addEventListener('click', () => {
-    // GANTI TAUTAN DI SINI
+    // GANTI TAUTAN INI DENGAN URL YANG ANDA INGINKAN
     window.location.href = 'https://www.google.com';
 });
 
