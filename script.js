@@ -62,6 +62,7 @@ submitButton.addEventListener('click', handleSubmit);
 
 // Tambahkan event listener untuk tombol Buka Google
 redirectButton.addEventListener('click', () => {
+    // GANTI TAUTAN DI SINI
     window.location.href = 'https://www.google.com';
 });
 
