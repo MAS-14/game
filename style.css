@@ -1,0 +1,13 @@
+/*
+Ini adalah gaya (style) CSS yang mengatur tampilan visual halaman.
+Sebagian besar gaya berasal dari Tailwind CSS, tetapi kode ini
+menambahkan gaya khusus untuk font dan lebar kontainer.
+*/
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+}
+.container {
+    max-width: 900px;
+}
