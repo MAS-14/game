@@ -26,7 +26,7 @@ let gameData = {
 // Fungsi untuk memperbarui tampilan game dengan data baru
 function updateGameDisplay() {
     // Menggunakan placeholder image yang benar
-    clueImage.src = 'https://placehold.co/600x400/22c55e/ffffff?text=FOTO+CLUE';
+    clueImage.src = 'ChatGPT Image 1 Agu 2025, 22.49.43.jpg';
     clueImage.alt = gameData.clueDescription;
     imageAltText.textContent = gameData.clueDescription;
     answerInput.value = '';
