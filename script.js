@@ -1,8 +1,6 @@
-/*
-Ini adalah logika JavaScript yang membuat game interaktif.
-Kode ini mengambil elemen-elemen dari halaman, memeriksa jawaban,
-dan memperbarui tampilan saat terjadi interaksi.
-*/
+// File JavaScript ini adalah otak dari game.
+// Kode ini mengambil elemen-elemen dari halaman, memeriksa jawaban,
+// dan memperbarui tampilan saat terjadi interaksi.
 
 // Ambil elemen-elemen dari DOM
 const clueImage = document.getElementById('clue-image');
@@ -24,7 +22,7 @@ let gameData = {
 // Fungsi untuk memperbarui tampilan game dengan data baru
 function updateGameDisplay() {
     // Menggunakan placeholder image yang benar
-    clueImage.src = 'https://placehold.co/600x400/22c55e/ffffff?text=FOTO+CLUE'; 
+    clueImage.src = 'https://placehold.co/600x400/22c55e/ffffff?text=FOTO+CLUE';
     clueImage.alt = gameData.clueDescription;
     imageAltText.textContent = gameData.clueDescription;
     answerInput.value = '';
