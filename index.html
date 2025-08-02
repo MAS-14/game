@@ -1,9 +1,15 @@
-<!-- Ini adalah struktur dasar dan konten halaman. -->
-<!-- Termasuk semua elemen seperti judul, gambar, input, dan tombol. -->
-<!-- Sebagian besar gaya visual diatur di sini menggunakan kelas Tailwind CSS. -->
-
-<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tebak-Tebakan</title>
+    <!-- Menautkan file CSS eksternal -->
     <link rel="stylesheet" href="style.css">
+    <!-- Memuat Tailwind CSS dari CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
     <div class="container mx-auto p-8 bg-white rounded-3xl shadow-2xl space-y-8 flex flex-col items-center">
         <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 text-center mb-6">Game Tebak-Tebakan</h1>
 
@@ -32,7 +38,6 @@
                     Kirim Jawaban
                 </button>
             </div>
-            <!-- Area pesan dan tombol baru -->
             <p id="message-area" class="mt-4 text-center text-lg font-semibold text-gray-700"></p>
             <div id="redirect-button-container" class="hidden text-center mt-4">
                 <button id="redirect-button"
@@ -42,4 +47,7 @@
             </div>
         </div>
     </div>
+    <!-- Menautkan file JavaScript eksternal -->
+    <script src="script.js"></script>
 </body>
+</html>
