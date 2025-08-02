@@ -64,11 +64,11 @@ function handleSubmit() {
 // Tambahkan event listener untuk tombol Kirim Jawaban
 submitButton.addEventListener('click', handleSubmit);
 
-// Tambahkan event listener untuk tombol Buka Google
+// Tambahkan event listener untuk tombol Buka WhatsApp
 redirectButton.addEventListener('click', () => {
     // GANTI NOMOR DAN PESAN DI SINI UNTUK TAUTAN WHATSAPP
-    const phoneNumber = '+6285755259164'; // Ganti dengan nomor telepon Anda (gunakan kode negara)
-    const message = encodeURIComponent('ganti Nama lengkap, jawaban saya benar!'); // Ganti dengan pesan yang Anda inginkan
+    const phoneNumber = '+6281234567890'; // Ganti dengan nomor telepon Anda (gunakan kode negara)
+    const message = encodeURIComponent('Halo, jawaban saya benar!'); // Ganti dengan pesan yang Anda inginkan
     window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
 });
 
