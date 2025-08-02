@@ -11,6 +11,10 @@ const messageArea = document.getElementById('message-area');
 const redirectButton = document.getElementById('redirect-button');
 const redirectButtonContainer = document.getElementById('redirect-button-container');
 
+// Nonaktifkan fitur autocomplete browser pada input.
+// Ini untuk mencegah browser menyimpan dan menyarankan riwayat pengetikan.
+answerInput.setAttribute('autocomplete', 'off');
+
 // Ini adalah data clue saat ini
 let gameData = {
     // Edit deskripsi petunjuk di sini
