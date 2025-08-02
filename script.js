@@ -66,8 +66,10 @@ submitButton.addEventListener('click', handleSubmit);
 
 // Tambahkan event listener untuk tombol Buka Google
 redirectButton.addEventListener('click', () => {
-    // GANTI TAUTAN INI DENGAN URL YANG ANDA INGINKAN
-    window.location.href = 'https://www.google.com';
+    // GANTI NOMOR DAN PESAN DI SINI UNTUK TAUTAN WHATSAPP
+    const phoneNumber = '+6285755259164'; // Ganti dengan nomor telepon Anda (gunakan kode negara)
+    const message = encodeURIComponent('ganti Nama lengkap, jawaban saya benar!'); // Ganti dengan pesan yang Anda inginkan
+    window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
 });
 
 // Panggil fungsi untuk menampilkan clue awal saat halaman dimuat
